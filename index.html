@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Animated Backgrounds — 650+ Free CSS &amp; JS Animated Backgrounds</title>
+  <!-- The blog lives on its own subdomain now: any /blog/* URL is redirected before paint -->
+  <script>if(/^\/blog(\/|\.html|$)/i.test(location.pathname))location.replace('https://blog.animatedbackgrounds.me/')</script>
+  <meta name="description" content="Hand-picked collection of 650+ free animated backgrounds made with CSS, Canvas and WebGL. Preview live, like your favourites and get the code.">
+  <meta name="keywords" content="animated backgrounds, animation backgrounds, motion backgrounds, moving backgrounds, gif backgrounds, animated backgrounds css, backgrounds css, css animations, html css backgrounds, html backgrounds, background animation, background effects, animation effects, animated wallpaper, animated backgrounds live">
+  <meta name="author" content="Prakhar Tripathi">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="theme-color" content="#faf9f7">
+  <link rel="canonical" href="https://animatedbackgrounds.me/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Animated Backgrounds">
+  <meta property="og:title" content="Animated Backgrounds — 650+ Free CSS &amp; JS Animated Backgrounds">
+  <meta property="og:description" content="Hand-picked collection of 650+ free animated backgrounds made with CSS, Canvas and WebGL. Preview live, like your favourites and get the code.">
+  <meta property="og:url" content="https://animatedbackgrounds.me/">
+  <meta property="og:image" content="https://animatedbackgrounds.me/assets/icons/android-chrome-512x512.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="p:domain_verify" content="85bba5f5d14833ea390d327e074c2181">
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Animated BG">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+
+  <!-- Theme before paint (no flash) -->
+  <script>try{var t=localStorage.getItem('ab:theme');t=t?JSON.parse(t):'system';if(t==='dark'||(t==='system'&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark');var d=localStorage.getItem('ab:density');if(d&&JSON.parse(d)==='compact')document.documentElement.classList.add('compact')}catch(e){}</script>
+  <script>window.AB_CONFIG={"site":"https://animatedbackgrounds.me","blog":"https://blog.animatedbackgrounds.me/","apiBase":"","newsletter":{"action":"https://blog.animatedbackgrounds.me/_ob/subscribe","formKey":"home-newsletter","rssFallback":"https://r.jina.ai/https://blog.animatedbackgrounds.me/rss.xml"},"carbon":{"serve":"CESI523J","placement":"animatedbackgroundsme","format":"cover"},"contactEmail":"owner@animatedbackgrounds.me"}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/site.css?v=af645582dd">
+  <link rel="stylesheet" href="/assets/css/app.css?v=af645582dd">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYRH5XJN84"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-QYRH5XJN84');</script>
+  <!-- Google AdSense (auto ads) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7495618193422190" crossorigin="anonymous"></script>
+
+  <link rel="alternate" type="application/rss+xml" title="Animated Backgrounds Blog" href="https://blog.animatedbackgrounds.me/rss.xml">
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Animated Backgrounds","url":"https://animatedbackgrounds.me/","potentialAction":{"@type":"SearchAction","target":"https://animatedbackgrounds.me/search/?q={query}","query-input":"required name=query"}}</script>
+</head>
+<body data-route="spa">
+  <a class="skip-link" href="#view">Skip to content</a>
+
+  <div class="app" id="app">
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="sidebar-scroll">
+      <a class="brand" href="/" data-link>
+        <span class="brand-logo"><img src="/assets/icons/android-chrome-192x192.png" alt="" width="42" height="42"></span>
+        <span class="brand-text"><strong>Animated</strong><span>Backgrounds</span></span>
+      </a>
+
+      <nav class="side-nav" id="side-nav">
+        <a href="/" data-link data-nav="home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        <a href="/all/" data-link data-nav="all"><i class="fa-solid fa-layer-group"></i><span>All Backgrounds</span><em class="nav-count" id="count-all">657</em></a>
+        <a href="/popular/" data-link data-nav="popular"><i class="fa-solid fa-fire"></i><span>Popular</span></a>
+        <a href="/random/" data-link data-nav="random"><i class="fa-solid fa-shuffle"></i><span>Random</span></a>
+        <a href="/favorites/" data-link data-nav="favorites"><i class="fa-solid fa-heart"></i><span>Favorites</span><em class="nav-count" id="count-likes"></em></a>
+        <a href="/create/" data-link data-nav="create"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Background Studio</span></a>
+        <a href="/gif/" data-link data-nav="gif"><i class="fa-solid fa-images"></i><span>Convert to GIF</span></a>
+        <a href="/guide/" data-nav="guide"><i class="fa-solid fa-book-open"></i><span>How to use</span></a>
+        <a href="https://blog.animatedbackgrounds.me/" data-nav="blog"><i class="fa-solid fa-newspaper"></i><span>Blog</span><i class="fa-solid fa-arrow-up-right-from-square ext"></i></a>
+      </nav>
+
+      <div class="side-section">
+        <h4 class="side-title">Collections</h4>
+        <nav class="side-cats" id="side-cats"><a href="/collection/waves/" data-link><span class="dot" style="background:#2a9df4"></span>Wave Animations<em>32</em></a><a href="/collection/bubbles/" data-link><span class="dot" style="background:#4f7cff"></span>Bubbles &amp; Blobs<em>22</em></a><a href="/collection/hearts/" data-link><span class="dot" style="background:#e5484d"></span>Hearts &amp; Love<em>11</em></a><a href="/collection/particles/" data-link><span class="dot" style="background:#f5a524"></span>Particles<em>16</em></a><a href="/collection/space/" data-link><span class="dot" style="background:#6e56cf"></span>Space &amp; Stars<em>5</em></a><a href="/collection/gradient/" data-link><span class="dot" style="background:#d6409f"></span>Gradients<em>15</em></a><a href="/collection/patterns/" data-link><span class="dot" style="background:#30a46c"></span>Patterns &amp; Geometry<em>23</em></a><a href="/collection/3d/" data-link><span class="dot" style="background:#3e63dd"></span>3D Backgrounds<em>18</em></a><a href="/collection/tunnel/" data-link><span class="dot" style="background:#8e4ec6"></span>Tunnels<em>10</em></a><a href="/collection/fluid/" data-link><span class="dot" style="background:#12a594"></span>Fluid Simulation<em>26</em></a><a href="/collection/noise/" data-link><span class="dot" style="background:#8d8d8d"></span>Noise &amp; Glitch<em>16</em></a><a href="/collection/interactive/" data-link><span class="dot" style="background:#e37926"></span>Interactive<em>1</em></a></nav>
+      </div>
+
+      <div class="promo-card">
+        <h3>Make your own gradient</h3>
+        <p>Pick colours, angle and speed, then copy the CSS.</p>
+        <a class="btn btn-primary btn-block btn-sm" href="/create/" data-link><i class="fa-solid fa-wand-magic-sparkles"></i> Open creator</a>
+      </div>
+
+      <div class="side-share">
+        <div class="share-row" id="side-share">
+          <a class="s-tw" target="_blank" rel="noopener" aria-label="Share on X / Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fanimatedbackgrounds.me&text=Free%20animated%20backgrounds%20for%20your%20website"><i class="fa-brands fa-x-twitter"></i></a>
+          <a class="s-fb" target="_blank" rel="noopener" aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimatedbackgrounds.me"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="s-tg" target="_blank" rel="noopener" aria-label="Share on Telegram" href="https://t.me/share/url?url=https%3A%2F%2Fanimatedbackgrounds.me&text=Free%20animated%20backgrounds"><i class="fa-brands fa-telegram"></i></a>
+          <a class="s-pi" target="_blank" rel="noopener" aria-label="Share on Pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fanimatedbackgrounds.me&description=Free%20animated%20backgrounds"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a class="s-wa" target="_blank" rel="noopener" aria-label="Share on WhatsApp" href="https://wa.me/?text=Free%20animated%20backgrounds%20https%3A%2F%2Fanimatedbackgrounds.me"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="site-views" title="Total page views"><i class="fa-regular fa-eye"></i> <span id="site-views">–</span> site views</p>
+        <nav class="side-links" aria-label="Site"><a href="/about/">About</a><a href="/guide/">Guide</a><a href="/privacy-policy/">Privacy</a><a href="/contact/">Contact</a></nav>
+      </div>
+      </div>
+
+      <!-- The menu scrolls above this dock, keeping the ad aligned to the
+           sidebar bottom without covering its last links. -->
+      <div class="sidebar-ad-anchor" id="sidebar-ad-anchor">
+        <aside class="ad-native" id="ad-native" aria-label="Sponsored" hidden>
+          <div class="ad-native-head"><span>Sponsored</span><span class="ad-native-note">Ads keep this library free</span></div>
+          <div class="ad-native-body" id="carbon-slot"></div>
+        </aside>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <!-- ============ MAIN ============ -->
+    <div class="main">
+      <header class="topbar">
+        <button class="icon-btn only-mobile" id="menu-btn" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        <a class="brand brand-mini only-mobile" href="/" data-link><img src="/assets/icons/android-chrome-192x192.png" alt="Animated Backgrounds" width="34" height="34"></a>
+        <form class="search" id="search-form" role="search" action="/search/">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input id="search-input" name="q" type="search" placeholder="Search backgrounds" autocomplete="off" aria-label="Search backgrounds">
+          <kbd class="hide-xs">/</kbd>
+        </form>
+        <div class="top-actions">
+          <button class="icon-btn icon-btn-primary" id="submit-btn" title="Submit a background" aria-label="Submit a background"><i class="fa-solid fa-plus"></i></button>
+          <button class="icon-btn hide-xs" id="density-btn" title="Toggle grid size" aria-label="Toggle grid size"><i class="fa-solid fa-table-cells-large"></i></button>
+          <button class="icon-btn" id="settings-btn" title="Settings" aria-label="Settings" aria-haspopup="true"><i class="fa-solid fa-gear"></i></button>
+          <button class="icon-btn" id="install-btn" title="Install app" aria-label="Install app" hidden><i class="fa-solid fa-download"></i></button>
+        </div>
+      </header>
+
+      <main id="view" class="view" tabindex="-1"><section class="hero" id="hero-section">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span><span class="b5"></span>
+        </div>
+        <div class="hero-copy">
+          <span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> 657 free backgrounds · no signup</span>
+          <h1>Animated backgrounds that bring your website to life</h1>
+          <p>Hand-picked CSS, Canvas &amp; WebGL animations. Preview them live, save favourites and copy the code for free.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/all/" data-link><i class="fa-solid fa-layer-group"></i> Browse all</a>
+            <a class="btn btn-ghost" href="/random/" data-link><i class="fa-solid fa-shuffle"></i> Surprise me</a>
+          </div>
+          <div class="hero-stats"><span><b>657</b>backgrounds</span><span><b>12</b>collections</span><span><b>100%</b>free to use*</span></div>
+        </div>
+        <div class="hero-ad-anchor" id="hero-ad-anchor"></div>
+      </section>
+      <section class="section" id="trending">
+        <div class="section-head"><div><h2><i class="fa-solid fa-fire" style="color:var(--primary)"></i> Popular animated backgrounds right now</h2><p>Most viewed &amp; liked motion backgrounds from the community</p></div><a class="see-all" href="/popular/" data-link>View all <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="bg-grid"><article class="bg-card" data-id="ByVyzb">
+      <a class="bg-thumb" href="/background/ByVyzb/" data-open="ByVyzb" aria-label="Preview Sine wave pixel grid">
+        <img src="/assets/shots/ByVyzb.jpg" alt="Sine wave pixel grid — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Sine wave pixel grid">Sine wave pixel grid</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="ByVyzb">2</span> · Andy Fitzsimon</p>
+        </div>
+        <button class="like-btn" data-like="ByVyzb" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span>2</span></button>
+        <button class="kebab" data-menu="ByVyzb" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="AmqdWE">
+      <a class="bg-thumb" href="/background/AmqdWE/" data-open="AmqdWE" aria-label="Preview Dot Dodgers">
+        <img src="/assets/shots/AmqdWE.jpg" alt="Dot Dodgers — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Dot Dodgers">Dot Dodgers</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="AmqdWE">0</span> · Rich Howell</p>
+        </div>
+        <button class="like-btn" data-like="AmqdWE" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="AmqdWE" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BbpKZy">
+      <a class="bg-thumb" href="/background/BbpKZy/" data-open="BbpKZy" aria-label="Preview Hearts animation background">
+        <img src="/assets/shots/BbpKZy.jpg" alt="Hearts animation background — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Hearts animation background">Hearts animation background</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BbpKZy">0</span> · Pogany</p>
+        </div>
+        <button class="like-btn" data-like="BbpKZy" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BbpKZy" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BmyyOQ">
+      <a class="bg-thumb" href="/background/BmyyOQ/" data-open="BmyyOQ" aria-label="Preview Simplex Flow Field With Constant Magnitude">
+        <img src="/assets/shots/BmyyOQ.jpg" alt="Simplex Flow Field With Constant Magnitude — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Simplex Flow Field With Constant Magnitude">Simplex Flow Field With Constant Magnitude</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BmyyOQ">0</span> · Johan Karlsson</p>
+        </div>
+        <button class="like-btn" data-like="BmyyOQ" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BmyyOQ" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BzVmVw">
+      <a class="bg-thumb" href="/background/BzVmVw/" data-open="BzVmVw" aria-label="Preview CSS Wave Animation">
+        <img src="/assets/shots/BzVmVw.jpg" alt="CSS Wave Animation — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="CSS Wave Animation">CSS Wave Animation</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BzVmVw">0</span> · Josh Bader</p>
+        </div>
+        <button class="like-btn" data-like="BzVmVw" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BzVmVw" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="DMRPox">
+      <a class="bg-thumb" href="/background/DMRPox/" data-open="DMRPox" aria-label="Preview Gravitation Explosion">
+        <img src="/assets/shots/DMRPox.jpg" alt="Gravitation Explosion — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Gravitation Explosion">Gravitation Explosion</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="DMRPox">0</span> · Gabriel Valfridsson</p>
+        </div>
+        <button class="like-btn" data-like="DMRPox" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="DMRPox" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="DbpBKB">
+      <a class="bg-thumb" href="/background/DbpBKB/" data-open="DbpBKB" aria-label="Preview Traveling through Tron - Best viewed in Webkit">
+        <img src="/assets/shots/DbpBKB.jpg" alt="Traveling through Tron - Best viewed in Webkit — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Traveling through Tron - Best viewed in Webkit">Traveling through Tron - Best viewed in Webkit</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="DbpBKB">0</span> · John Urbank</p>
+        </div>
+        <button class="like-btn" data-like="DbpBKB" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="DbpBKB" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="DjoXVM">
+      <a class="bg-thumb" href="/background/DjoXVM/" data-open="DjoXVM" aria-label="Preview Relaxing Wave">
+        <img src="/assets/shots/DjoXVM.jpg" alt="Relaxing Wave — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Relaxing Wave">Relaxing Wave</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="DjoXVM">0</span> · Scott Tolinski</p>
+        </div>
+        <button class="like-btn" data-like="DjoXVM" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="DjoXVM" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article></div>
+      </section>
+
+      <form class="subscribe" data-newsletter action="https://blog.animatedbackgrounds.me/_ob/subscribe" method="post">
+      <div class="subscribe-copy"><h2><i class="fa-regular fa-envelope" style="color:var(--primary)"></i> Get new backgrounds &amp; guides by email</h2><p>One short email when something new lands. No spam, unsubscribe anytime.</p></div>
+      <div class="subscribe-row">
+        <label class="sr-only" for="nl-home">Email address</label>
+        <input id="nl-home" type="email" name="email" required autocomplete="email" inputmode="email" placeholder="you@example.com">
+        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Subscribe</button>
+      </div>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="form_key" value="home-newsletter"><input type="hidden" name="source" value="/">
+      <p class="subscribe-status" role="status" aria-live="polite"></p>
+    </form>
+
+      <section class="section seo-intro" id="about-backgrounds">
+        <h2>Free animated backgrounds, motion backgrounds &amp; GIF backgrounds</h2>
+        <p>Animated Backgrounds is a hand-picked library of 657 free <strong>animated backgrounds</strong>, <strong>motion backgrounds</strong> and <strong>moving backgrounds</strong> built with <strong>CSS animations</strong>, Canvas and WebGL. Every <strong>animation background</strong> on this page is a real, live <strong>background animation</strong> you can preview in the browser before you copy a single line of code — no signup, no paywall, no watermark.</p>
+        <p>Looking for <strong>animated backgrounds CSS</strong>? Filter by the <a href="/collection/gradient/" data-link>gradients</a>, <a href="/collection/waves/" data-link>waves</a> or <a href="/collection/patterns/" data-link>patterns</a> collections — they are pure <strong>backgrounds CSS</strong> with zero JavaScript. Prefer <strong>HTML CSS backgrounds</strong> inside a page? Every detail page lists the exact <strong>html backgrounds</strong> markup. Need a still image instead of a live animation? Use the <a href="/gif/" data-link>GIF converter</a> to export any <strong>gif backgrounds</strong> loop, or grab an <strong>animated wallpaper</strong> for your desktop.</p>
+        <p>New here? Start with <a href="/guide/" data-link>how to add an animated background to your site</a>, browse <a href="/popular/" data-link>the most popular background effects</a>, or open the <a href="/create/" data-link>background engine</a> and design your own <strong>background effects</strong> and <strong>animation effects</strong> from scratch.</p>
+      </section>
+
+      <section class="section" id="explore">
+        <div class="section-head"><div><h2>Explore every animated background</h2><p>Scroll to load more backgrounds</p></div>
+          <select class="sort-select" id="sort-select" aria-label="Sort"><option value="default" selected>Default order</option><option value="popular">Most popular</option><option value="liked">Most liked</option><option value="az">A – Z</option><option value="shuffle">Shuffle</option></select>
+        </div>
+        <div class="bg-grid" id="grid"><article class="bg-card" data-id="wvadazR">
+      <a class="bg-thumb" href="/background/wvadazR/" data-open="wvadazR" aria-label="Preview Squares and Circles and Triangles">
+        <img src="/assets/shots/wvadazR.jpg" alt="Squares and Circles and Triangles — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Squares and Circles and Triangles">Squares and Circles and Triangles</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="wvadazR">0</span> · Ethan</p>
+        </div>
+        <button class="like-btn" data-like="wvadazR" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="wvadazR" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="LYjvEJj">
+      <a class="bg-thumb" href="/background/LYjvEJj/" data-open="LYjvEJj" aria-label="Preview Background gradient moves with mouse">
+        <img src="/assets/shots/LYjvEJj.jpg" alt="Background gradient moves with mouse — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Background gradient moves with mouse">Background gradient moves with mouse</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="LYjvEJj">1</span> · Mark Boots</p>
+        </div>
+        <button class="like-btn" data-like="LYjvEJj" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="LYjvEJj" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="LYNxoVd">
+      <a class="bg-thumb" href="/background/LYNxoVd/" data-open="LYNxoVd" aria-label="Preview Gangnam Style&quot; by Psy: Codepen Challenge">
+        <img src="/assets/shots/LYNxoVd.jpg" alt="Gangnam Style&quot; by Psy: Codepen Challenge — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Gangnam Style&quot; by Psy: Codepen Challenge">Gangnam Style&quot; by Psy: Codepen Challenge</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="LYNxoVd">0</span> · christine i</p>
+        </div>
+        <button class="like-btn" data-like="LYNxoVd" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="LYNxoVd" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BEKdjd">
+      <a class="bg-thumb" href="/background/BEKdjd/" data-open="BEKdjd" aria-label="Preview kaleidoscope">
+        <img src="/assets/shots/BEKdjd.jpg" alt="kaleidoscope — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="kaleidoscope">kaleidoscope</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BEKdjd">0</span> · Arturo Morán</p>
+        </div>
+        <button class="like-btn" data-like="BEKdjd" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BEKdjd" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BRVepM">
+      <a class="bg-thumb" href="/background/BRVepM/" data-open="BRVepM" aria-label="Preview Ripple Hypnosis">
+        <img src="/assets/shots/BRVepM.jpg" alt="Ripple Hypnosis — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Ripple Hypnosis">Ripple Hypnosis</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BRVepM">0</span> · Stephanie</p>
+        </div>
+        <button class="like-btn" data-like="BRVepM" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BRVepM" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BWMyZr">
+      <a class="bg-thumb" href="/background/BWMyZr/" data-open="BWMyZr" aria-label="Preview Crazy 4">
+        <img src="/assets/shots/BWMyZr.jpg" alt="Crazy 4 — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Crazy 4">Crazy 4</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BWMyZr">0</span> · Louis Hoebregts</p>
+        </div>
+        <button class="like-btn" data-like="BWMyZr" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BWMyZr" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="AjKKVz">
+      <a class="bg-thumb" href="/background/AjKKVz/" data-open="AjKKVz" aria-label="Preview Animated Background #7">
+        <img src="/assets/shots/AjKKVz.jpg" alt="Animated Background #7 — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Animated Background #7">Animated Background #7</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="AjKKVz">0</span> · Mark Lee</p>
+        </div>
+        <button class="like-btn" data-like="AjKKVz" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="AjKKVz" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="AmqdWE">
+      <a class="bg-thumb" href="/background/AmqdWE/" data-open="AmqdWE" aria-label="Preview Dot Dodgers">
+        <img src="/assets/shots/AmqdWE.jpg" alt="Dot Dodgers — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Dot Dodgers">Dot Dodgers</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="AmqdWE">0</span> · Rich Howell</p>
+        </div>
+        <button class="like-btn" data-like="AmqdWE" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="AmqdWE" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BXKxxP">
+      <a class="bg-thumb" href="/background/BXKxxP/" data-open="BXKxxP" aria-label="Preview A world of Turbulence">
+        <img src="/assets/shots/BXKxxP.jpg" alt="A world of Turbulence — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="A world of Turbulence">A world of Turbulence</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BXKxxP">0</span> · Alex Andrix</p>
+        </div>
+        <button class="like-btn" data-like="BXKxxP" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BXKxxP" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BYbjyg">
+      <a class="bg-thumb" href="/background/BYbjyg/" data-open="BYbjyg" aria-label="Preview Ribbons 2">
+        <img src="/assets/shots/BYbjyg.jpg" alt="Ribbons 2 — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Ribbons 2">Ribbons 2</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BYbjyg">0</span> · Ben Matthews</p>
+        </div>
+        <button class="like-btn" data-like="BYbjyg" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BYbjyg" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BaJOPMK">
+      <a class="bg-thumb" href="/background/BaJOPMK/" data-open="BaJOPMK" aria-label="Preview CSS Synthwave">
+        <img src="/assets/shots/BaJOPMK.jpg" alt="CSS Synthwave — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="CSS Synthwave">CSS Synthwave</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BaJOPMK">0</span> · Sacha Van den Wyngaert</p>
+        </div>
+        <button class="like-btn" data-like="BaJOPMK" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BaJOPMK" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BaJmaXy">
+      <a class="bg-thumb" href="/background/BaJmaXy/" data-open="BaJmaXy" aria-label="Preview Starfield Animation">
+        <img src="/assets/shots/BaJmaXy.jpg" alt="Starfield Animation — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Starfield Animation">Starfield Animation</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BaJmaXy">0</span> · Sachin Samal</p>
+        </div>
+        <button class="like-btn" data-like="BaJmaXy" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BaJmaXy" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BaLBQgo">
+      <a class="bg-thumb" href="/background/BaLBQgo/" data-open="BaLBQgo" aria-label="Preview radial mirror">
+        <img src="/assets/shots/BaLBQgo.jpg" alt="radial mirror — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="radial mirror">radial mirror</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BaLBQgo">0</span> · Stranger in the Q</p>
+        </div>
+        <button class="like-btn" data-like="BaLBQgo" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BaLBQgo" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BaaNKqj">
+      <a class="bg-thumb" href="/background/BaaNKqj/" data-open="BaaNKqj" aria-label="Preview hex animation">
+        <img src="/assets/shots/BaaNKqj.jpg" alt="hex animation — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="hex animation">hex animation</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BaaNKqj">0</span> · isladjan</p>
+        </div>
+        <button class="like-btn" data-like="BaaNKqj" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BaaNKqj" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BaamKgv">
+      <a class="bg-thumb" href="/background/BaamKgv/" data-open="BaamKgv" aria-label="Preview Animated Background">
+        <img src="/assets/shots/BaamKgv.jpg" alt="Animated Background — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Animated Background">Animated Background</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BaamKgv">0</span> · Ahmed Riad</p>
+        </div>
+        <button class="like-btn" data-like="BaamKgv" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BaamKgv" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BamepLe">
+      <a class="bg-thumb" href="/background/BamepLe/" data-open="BamepLe" aria-label="Preview CSS Blossoming Flowers at Magical Night">
+        <img src="/assets/shots/BamepLe.jpg" alt="CSS Blossoming Flowers at Magical Night — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="CSS Blossoming Flowers at Magical Night">CSS Blossoming Flowers at Magical Night</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BamepLe">0</span> · Md Usman Ansari</p>
+        </div>
+        <button class="like-btn" data-like="BamepLe" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BamepLe" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BawgOGE">
+      <a class="bg-thumb" href="/background/BawgOGE/" data-open="BawgOGE" aria-label="Preview Updating color darkness with &#39;Screen&#39; Blend mode">
+        <img src="/assets/shots/BawgOGE.jpg" alt="Updating color darkness with &#39;Screen&#39; Blend mode — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Updating color darkness with &#39;Screen&#39; Blend mode">Updating color darkness with &#39;Screen&#39; Blend mode</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BawgOGE">0</span> · Louis Hoebregts</p>
+        </div>
+        <button class="like-btn" data-like="BawgOGE" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BawgOGE" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BbpKZy">
+      <a class="bg-thumb" href="/background/BbpKZy/" data-open="BbpKZy" aria-label="Preview Hearts animation background">
+        <img src="/assets/shots/BbpKZy.jpg" alt="Hearts animation background — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Hearts animation background">Hearts animation background</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BbpKZy">0</span> · Pogany</p>
+        </div>
+        <button class="like-btn" data-like="BbpKZy" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BbpKZy" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BgMxQE">
+      <a class="bg-thumb" href="/background/BgMxQE/" data-open="BgMxQE" aria-label="Preview Cinamon rolls flow field">
+        <img src="/assets/shots/BgMxQE.jpg" alt="Cinamon rolls flow field — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Cinamon rolls flow field">Cinamon rolls flow field</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BgMxQE">0</span> · Pogany</p>
+        </div>
+        <button class="like-btn" data-like="BgMxQE" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BgMxQE" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BmyyOQ">
+      <a class="bg-thumb" href="/background/BmyyOQ/" data-open="BmyyOQ" aria-label="Preview Simplex Flow Field With Constant Magnitude">
+        <img src="/assets/shots/BmyyOQ.jpg" alt="Simplex Flow Field With Constant Magnitude — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Simplex Flow Field With Constant Magnitude">Simplex Flow Field With Constant Magnitude</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BmyyOQ">0</span> · Johan Karlsson</p>
+        </div>
+        <button class="like-btn" data-like="BmyyOQ" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BmyyOQ" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BpjPKj">
+      <a class="bg-thumb" href="/background/BpjPKj/" data-open="BpjPKj" aria-label="Preview Seahorse Valley">
+        <img src="/assets/shots/BpjPKj.jpg" alt="Seahorse Valley — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Seahorse Valley">Seahorse Valley</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BpjPKj">0</span> · Tiffany Rayside</p>
+        </div>
+        <button class="like-btn" data-like="BpjPKj" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BpjPKj" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BqREob">
+      <a class="bg-thumb" href="/background/BqREob/" data-open="BqREob" aria-label="Preview Mitosys Canvas">
+        <img src="/assets/shots/BqREob.jpg" alt="Mitosys Canvas — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Mitosys Canvas">Mitosys Canvas</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BqREob">0</span> · Fabio Ottaviani</p>
+        </div>
+        <button class="like-btn" data-like="BqREob" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BqREob" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BrRXJo">
+      <a class="bg-thumb" href="/background/BrRXJo/" data-open="BrRXJo" aria-label="Preview Background images play around">
+        <img src="/assets/shots/BrRXJo.jpg" alt="Background images play around — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="Background images play around">Background images play around</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BrRXJo">0</span> · maane hunden</p>
+        </div>
+        <button class="like-btn" data-like="BrRXJo" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BrRXJo" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article><article class="bg-card" data-id="BvXdLm">
+      <a class="bg-thumb" href="/background/BvXdLm/" data-open="BvXdLm" aria-label="Preview blob animation with snap.svg">
+        <img src="/assets/shots/BvXdLm.jpg" alt="blob animation with snap.svg — animated background" loading="lazy" decoding="async" width="640" height="360">
+        <span class="play"><i class="fa-solid fa-play"></i></span>
+        
+      </a>
+      <div class="bg-info">
+        <div class="bg-meta">
+          <h3 title="blob animation with snap.svg">blob animation with snap.svg</h3>
+          <p><i class="fa-regular fa-eye"></i> <span data-views="BvXdLm">0</span> · Denis</p>
+        </div>
+        <button class="like-btn" data-like="BvXdLm" aria-pressed="false" aria-label="Like"><i class="fa-regular fa-heart"></i><span></span></button>
+        <button class="kebab" data-menu="BvXdLm" aria-label="More options"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </article></div>
+        <div class="load-more-wrap"><button class="btn btn-soft" id="load-more">Load more <i class="fa-solid fa-chevron-down"></i></button></div>
+        <div class="sentinel" id="sentinel"></div>
+      </section><noscript><p class="empty">Please enable JavaScript to preview the animated backgrounds.</p></noscript></main>
+
+      <footer class="app-footer">
+        <p>© <span id="year">2026</span> AnimatedBackgrounds.me · Backgrounds are created by their CodePen authors — always check each pen's license before use.</p>
+        <nav aria-label="Footer"><a href="/guide/">How to use</a><a href="https://blog.animatedbackgrounds.me/">Blog</a><a href="/about/">About</a><a href="/privacy-policy/">Privacy</a><a href="/contact/">Contact</a></nav>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Mobile bottom navigation (PWA feel) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="/" data-link data-nav="home"><i class="fa-solid fa-house"></i><span>Home</span></a>
+    <a href="/popular/" data-link data-nav="popular"><i class="fa-solid fa-fire"></i><span>Popular</span></a>
+    <a href="/create/" data-link data-nav="create" class="bn-create" aria-label="Gradient creator"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+    <a href="/favorites/" data-link data-nav="favorites"><i class="fa-solid fa-heart"></i><span>Liked</span></a>
+    <a href="/guide/" data-nav="guide"><i class="fa-solid fa-book-open"></i><span>Guide</span></a>
+  </nav>
+
+  <!-- Preview modal -->
+  <div class="modal" id="bg-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-nav prev" id="modal-prev" aria-label="Previous background"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="modal-nav next" id="modal-next" aria-label="Next background"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="modal-head">
+        <div>
+          <h2 id="modal-title">Background</h2>
+          <p id="modal-sub" class="muted"></p>
+        </div>
+        <button class="icon-btn" data-close aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-stage" id="modal-stage"></div>
+      <div class="modal-foot">
+        <div class="modal-stats">
+          <span title="Views"><i class="fa-regular fa-eye"></i> <b id="modal-views">–</b></span>
+          <span title="Likes from all visitors"><i class="fa-solid fa-heart"></i> <b id="modal-likes">–</b></span>
+          <div class="chips" id="modal-tags"></div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn btn-soft like-big" id="modal-like"><i class="fa-regular fa-heart"></i> <span>Like</span></button>
+          <button class="btn btn-soft tag-btn" id="modal-tag"><i class="fa-solid fa-tags"></i> <span class="hide-xs">Add tag</span></button>
+          <button class="btn btn-soft" id="modal-share"><i class="fa-solid fa-share-nodes"></i> <span class="hide-xs">Share</span></button>
+          <button class="btn btn-soft" id="modal-embed"><i class="fa-solid fa-code"></i> <span class="hide-xs">Embed</span></button>
+          <a class="btn btn-soft" id="modal-full" target="_blank" rel="noopener"><i class="fa-solid fa-expand"></i> <span class="hide-xs">Fullscreen</span></a>
+          <a class="btn btn-primary" id="modal-code" target="_blank" rel="noopener"><i class="fa-brands fa-codepen"></i> Get Code</a>
+        </div>
+        <div class="tag-panel" id="tag-panel" hidden></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Generic dialog (submit / embed / settings on mobile) -->
+  <div class="modal" id="dialog" role="dialog" aria-modal="true" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card dialog-card" id="dialog-body"></div>
+  </div>
+
+  <div class="popover" id="popover" hidden></div>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="/assets/js/monetize.config.js?v=af645582dd" defer></script>
+  <script src="/assets/js/monetize.js?v=af645582dd" defer></script>
+  <script src="/assets/js/engine.js?v=af645582dd" defer></script>
+  <script src="/assets/js/app.js?v=af645582dd" defer></script>
+</body>
+</html>
